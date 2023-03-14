@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin
 echo $(('echo $PATH | greb -o ":/" | wc -1'+ 1))
